@@ -28,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     Toast.makeText(MainActivity.this, "插件安装失败", Toast.LENGTH_SHORT).show();
                 }
+
+
+                //
 //                RePlugin.startActivity(MainActivity.this, RePlugin.createIntent("plugin01", "com.dgcredit.replugindemo01.MainActivity"));
 //                boolean pluginInstalled = RePlugin.isPluginInstalled("plugin01");
 //                if (pluginInstalled){
