@@ -25,6 +25,7 @@ public class BaseApp extends Application {
         RePluginConfig config = new RePluginConfig();
         config.setVerifySign(!BuildConfig.DEBUG);
         config.setPrintDetailLog(BuildConfig.DEBUG);
+        config.setUseHostClassIfNotFound(true);
         RePlugin.App.attachBaseContext(this, config);
         // ========================
     }
