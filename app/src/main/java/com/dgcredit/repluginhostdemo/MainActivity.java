@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(MainActivity.this, "预加载完成", Toast.LENGTH_SHORT).show();
                     }
                 } else {
-                    Toast.makeText(MainActivity.this, "插件安装失败", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "插件安装失败++", Toast.LENGTH_SHORT).show();
                 }
                 //
 //                RePlugin.startActivity(MainActivity.this, RePlugin.createIntent("plugin01", "com.dgcredit.replugindemo01.MainActivity"));
